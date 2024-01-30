@@ -14,7 +14,7 @@ function App() {
     const [selectedIndicator, setSelectedIndicator] = useState<Building | undefined>(undefined)
 
     return (
-        <BrowserRouter basename="/rent">
+        <BrowserRouter basename="/gh-pages">
 
             <div className="App">
 

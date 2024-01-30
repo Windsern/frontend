@@ -75,9 +75,17 @@ const IndicatorPage = ({ selectedIndicator, setSelectedIndicator }: { selectedIn
 
                     <span className="description">{selectedIndicator?.address}</span>
 
-                    {/*<br />*/}
+                    <br />
 
-                    {/*<span>Единицы измереня: {selectedIndicator?.type_building}</span>*/}
+                    <span>Тип строения: {selectedIndicator?.type_building}</span>
+
+                    <br />
+
+                    <span>Разрешение на строительство: {selectedIndicator?.document_building}</span>
+
+                    <br />
+
+                    <span>Проектные документы: {selectedIndicator?.project_document}</span>
 
                 </div>
 
