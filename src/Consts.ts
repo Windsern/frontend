@@ -50,18 +50,18 @@ export const iIndicatorsMock:Building[] = [
         status: 1,
         image: "",
     },
+    // {
+    //     building_id: 3,
+    //     title: "Дом РФ",
+    //     address: "Бригадирский переулок, 12с1",
+    //     type_building: "Общественный",
+    //     document_building: "Да",
+    //     project_document: "Да",
+    //     status: 1,
+    //     image: "",
+    // },
     {
         building_id: 3,
-        title: "Дом РФ",
-        address: "Бригадирский переулок, 12с1",
-        type_building: "Общественный",
-        document_building: "Да",
-        project_document: "Да",
-        status: 1,
-        image: "",
-    },
-    {
-        building_id: 4,
         title: "Образовательный комплекс",
         address: "Бригадирский переулок, 13",
         type_building: "Общественный",
@@ -71,7 +71,7 @@ export const iIndicatorsMock:Building[] = [
         image: "",
     },
     {
-        building_id: 5,
+        building_id: 4,
         title: "Библиотечный корпус",
         address: "2-я Бауманская улица, 10",
         type_building: "Общественный",
@@ -81,7 +81,7 @@ export const iIndicatorsMock:Building[] = [
         image: "",
     },
     {
-        building_id: 6,
+        building_id: 5,
         title: "Дворец технологий",
         address: "Бауманская улица, 57Ас1",
         type_building: "Общественный",
@@ -91,7 +91,7 @@ export const iIndicatorsMock:Building[] = [
         image: "",
     },
     {
-        building_id: 7,
+        building_id: 6,
         title: "Центр биомедицинских систем и технологий",
         address: "Бригадирский переулок, 12",
         type_building: "Общественный",
@@ -101,7 +101,7 @@ export const iIndicatorsMock:Building[] = [
         image: "",
     },
     {
-        building_id: 8,
+        building_id: 7,
         title: "Комплекс общежитий",
         address: "55.771550, 37.695786",
         type_building: "Общественный",
@@ -111,7 +111,7 @@ export const iIndicatorsMock:Building[] = [
         image: "",
     },
     {
-        building_id: 9,
+        building_id: 8,
         title: "Образовательно-досуговый центр Спектр",
         address: "55.771777, 37.695370",
         type_building: "Общественный",
