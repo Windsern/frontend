@@ -1,0 +1,25 @@
+@import "src/styles/Variables"
+
+.buildings-filters
+	width: 100%
+	border-bottom: 2px solid $primary
+	padding: 20px
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+	.right-container
+		display: flex
+		gap: 15px
+
+		.search-form
+			display: flex
+			gap: 15px
+
+			@media screen and (max-width: 700px)
+				flex-direction: column
+				gap: 25px
+
+	@media screen and (max-width: 700px)
+		flex-direction: column
+		gap: 25px

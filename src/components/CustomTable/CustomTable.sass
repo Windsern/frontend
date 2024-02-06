@@ -1,0 +1,36 @@
+@import "src/Styles/variables.sass"
+
+.table-wrapper
+	display: flex
+	flex-direction: column
+	width: 100%
+	background: #fff
+	overflow: hidden
+	border-radius: 10px
+
+	table
+		width: 100%
+		border-collapse: collapse
+
+		thead
+			tr
+				background-color: $primary
+
+				th
+					padding: 20px
+					user-select: none
+					gap: 10px
+					color: #fff
+
+		tbody
+			tr
+				transition: 0.2s ease
+				cursor: pointer
+
+				&:hover
+					background-color: $secondary
+					color: #fff
+
+				td
+					padding: 10px
+					text-align: center
