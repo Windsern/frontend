@@ -26,7 +26,7 @@ const BuildingsFilters = ({refetch}) => {
 
                 {is_moderator &&
                     <LinkButton to="/buildings/add" bg={variables.primary}>
-                        Добавить реактор
+                        Добавить строение
                     </LinkButton>
                 }
 
