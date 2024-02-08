@@ -1,0 +1,43 @@
+{
+  "homepage": "https://windsern.github.io/gh-pages/",
+  "name": "bmstu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "axios": "^1.6.3",
+    "gh-pages": "^6.0.0",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.18.0",
+    "react-table": "^7.8.0",
+    "sass": "^1.69.5",
+    "styled-components": "^6.1.6",
+    "universal-cookie": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "8.22.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

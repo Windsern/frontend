@@ -1,0 +1,40 @@
+@import "Variables"
+
+body
+	font-family: "Montserrat", sans-serif
+	background: $background
+	width: 100%
+
+.wrapper
+	width: 100%
+	min-height: 100vh
+	display: flex
+	flex-direction: column
+	overflow: hidden
+
+	.content-wrapper
+		width: 100%
+		display: flex
+		flex-direction: column
+		padding: 50px 10%
+
+		@media screen and (max-width: 700px)
+			padding: 50px 25px
+
+		@media screen and (max-width: 420px)
+			padding: 50px 0
+
+		.top-panel-wrapper
+			display: flex
+			width: 100%
+			justify-content: space-between
+			margin-bottom: 25px
+
+			@media screen and (max-width: 700px)
+				flex-direction: column
+				align-items: center
+				gap: 25px
+
+			@media screen and (max-width: 420px)
+				padding: 0 25px
+				justify-content: center

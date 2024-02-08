@@ -1,0 +1,46 @@
+@import "/src/Styles/variables"
+
+.constructor-container
+	border-radius: 15px
+	box-shadow: 0 4px 30px -10px rgba(0, 0, 0, 0.2)
+	width: fit-content
+	background: #fff
+	padding: 10px 24px
+	display: flex
+	justify-content: center
+	align-items: center
+	transition: 0.2s ease
+	cursor: pointer
+	text-decoration: none
+	position: relative
+	user-select: none
+	background: $primary
+
+	&.disabled
+		cursor: not-allowed
+		background: #fff
+
+		span
+			color: $primary
+
+	&:hover
+		transform: scale(1.05)
+
+	span
+		font-size: 20px
+		color: #fff
+
+
+	.badge
+		position: absolute
+		top: -8px
+		right: -8px
+		font-size: 14px
+		width: 24px
+		height: 24px
+		display: flex
+		justify-content: center
+		align-items: center
+		background: $primary
+		border-radius: 50%
+		color: #fff
