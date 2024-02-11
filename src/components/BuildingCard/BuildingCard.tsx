@@ -12,9 +12,7 @@ const BuildingCard = ({ building, refetch }: {building:Building}) => {
 
     const {is_authenticated, is_moderator} = useAuth()
 
-    const {verification, is_draft, addBuildingToVerification, deleteBuildingFromVerification} = useVerification()
-
-    const {deleteBuilding} = useBuildings()
+    const {is_draft, addBuildingToVerification, deleteBuildingFromVerification} = useVerification()
 
     const handleAddBuilding = async (e) => {
         e.preventDefault()
@@ -25,12 +23,6 @@ const BuildingCard = ({ building, refetch }: {building:Building}) => {
     const handleDeleteBuildingFromVerification = async (e) => {
         e.preventDefault()
         await deleteBuildingFromVerification(building)
-    }
-
-    const handleDeleteBuilding = async (e) => {
-        e.preventDefault()
-        await deleteBuilding(building)
-        refetch()
     }
 
     return (
