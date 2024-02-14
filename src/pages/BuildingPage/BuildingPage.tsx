@@ -24,8 +24,6 @@ const BuildingPage = () => {
         )
     }
 
-    const img = `http://127.0.0.1:8000/api/buildings/${id}/image/`
-
     return (
         <div className="page-details-wrapper">
 
@@ -35,7 +33,7 @@ const BuildingPage = () => {
 
             <div className="left">
 
-                <img src={img}  alt=""/>
+                <img src={building.image}  alt=""/>
 
             </div>
 
@@ -43,7 +41,9 @@ const BuildingPage = () => {
 
                 <div className="info-container">
                     
-                    <h2>{building?.name}</h2> <br/>
+                    <h2>{building?.name}</h2> 
+
+                    <br/>
 
                     <span>Адрес: {building?.description}</span>
 
