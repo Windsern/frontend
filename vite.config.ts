@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'Технадзор МГТУ',
         short_name: 'Технадзор МГТУ',
-        description: 'Description', // <--- 👀
+        description: 'Description',
         theme_color: '#ffffff',
         icons: [
           {
