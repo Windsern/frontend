@@ -3,7 +3,7 @@ export interface Building {
     name: string,
     status: number,
     description: string,
-    floors: string,
-    year: string,
+    floors: number,
+    year: number,
     image: string
 }

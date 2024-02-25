@@ -3,7 +3,7 @@ import {Dispatch, useEffect, useState} from "react";
 import {Link, useParams} from "react-router-dom";
 import {iBuildingsMock, requestTime} from "../../utils/consts";
 import {Building} from "../../utils/types";
-import mockImage from "/src/assets/mock.jpg"
+import mockImage from "/src/assets/mock.png"
 
 const BuildingPage = ({ selectedBuilding, setSelectedBuilding }: { selectedBuilding:Building | undefined, setSelectedBuilding: Dispatch<Building| undefined>}) => {
 

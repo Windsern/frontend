@@ -1,7 +1,7 @@
 import "./BuildingCard.sass"
 import {Building} from "../../../utils/types";
 import {Link} from "react-router-dom";
-import mockImage from "/src/assets/mock.jpg"
+import mockImage from "/src/assets/mock.png"
 
 const BuildingCard = ({ building, isMock }: {building:Building, isMock:boolean }) => {
 
